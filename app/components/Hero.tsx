@@ -6,9 +6,9 @@ const Hero: React.FC = () => {
       id="home"
       className="h-screen flex flex-col justify-center items-center text-center bg-white px-4"
     >
-      <h3 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
+      <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
         Mohamed Hassan
-      </h3>
+      </h1>
 
       <p className="text-lg md:text-xl text-gray-600 mb-6">
         Frontend Web Developer | React & Next.js

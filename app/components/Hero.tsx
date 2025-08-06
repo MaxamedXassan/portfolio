@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Hero: React.FC = () => {
@@ -14,12 +15,12 @@ const Hero: React.FC = () => {
         Frontend Web Developer | React & Next.js
       </p>
 
-      <a
-        href="#projects"
+      <Link
+        href="/projects"
         className="bg-black text-white py-3 px-6 rounded-lg hover:bg-gray-800 transition duration-300"
       >
         View My Work
-      </a>
+      </Link>
     </section>
   );
 };

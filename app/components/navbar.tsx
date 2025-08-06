@@ -16,9 +16,9 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     {  href: "/", label: "Home" },
+    { href: "/projects", label: "Projects" },
     { href: "/service", label: "Service" },
     { href: "/about", label: "About" },
-    // { href: "#skills", label: "Skills" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -27,7 +27,13 @@ const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/">
-          <span className="text-2xl font-bold text-gray-800 cursor-pointer">M-HASSAN</span>
+         <div className="flex items-center gap-2">
+         <div className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center font-bold">
+         M
+       </div>
+       <span className="text-xl font-semibold">Mohamed Hassan</span>
+       </div>
+
         </Link>
 
         {/* Desktop Links */}
@@ -71,3 +77,4 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
+

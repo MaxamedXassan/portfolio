@@ -1,18 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import project1 from "@/public/project1.jpg";
 
 // Tusaale ahaan 3 project (bedeli karto)
 const projects = [
   {
     title: "Portfolio Website",
-    image: "/project1.png", // ku dar sawirkaaga gudaha public/
+    image: "/project2.jpg", // ku dar sawirkaaga gudaha public/
     description: "A personal portfolio site built with Next.js and Tailwind CSS.",
     live: "https://huriye.netlify.app/",
-    code: "https://github.com/yourusername/portfolio",
+    code: "https://github.com/MaxamedXassan/MyPortfolio",
   },
   {
     title: "E-commerce Store",
-    image: "/project2.png",
+    image: "/project1.jpg",
     description: "Modern e-commerce frontend built with React, Redux and Tailwind.",
     live: "https://store-demo.vercel.app",
     code: "https://github.com/yourusername/store",
@@ -30,7 +31,7 @@ const Projects: React.FC = () => {
   return (
     <section id="projects" className="bg-gray-50 px-6 md:px-12 py-20">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-        My Projects
+         Projects
       </h2>
 
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
